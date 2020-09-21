@@ -6,7 +6,7 @@ def deal_card
   rand (1..11)
 end
 
-def display_card_total
+def display_card_total(card_total)
    puts "Your cards add up to #{card_total}"
     card_total
 end
@@ -19,7 +19,7 @@ def get_user_input
   gets.strip.chomp
 end
 
-def end_game
+def end_game(card_total)
   puts "Sorry, you hit #{card_total}. Thanks for playing!"
 end
 
