@@ -30,7 +30,7 @@ end
 
 def hit? (card_total)
   puts "Type 'h' to hit or 's' to stay" 
-  prompt_user
+  
   if get_user_input == 'h'
     card_total += deal_card
   end
