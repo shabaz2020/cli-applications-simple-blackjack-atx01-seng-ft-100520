@@ -33,7 +33,7 @@ end
 def hit? (card_total)
   prompt_user
   user_input = get_user_input 
-  while user_input != "h" && 
+  while user_input != "h" && user_input != "s"
 end
 
 def invalid_command
